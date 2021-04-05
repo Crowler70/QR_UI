@@ -39,7 +39,7 @@ class Interface(QWidget):
     def InitUI(self):
         self.setGeometry(400, 400, 800, 550)
         self.setWindowTitle("QR Code De- and Encoder")
-        self.setWindowIcon(QIcon("Bilder/GUI Icon QR Code.png"))
+        self.setWindowIcon(QIcon("GUI Icon QR Code.png"))
         self.show()
 
     def Encode(self):
